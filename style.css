@@ -380,5 +380,126 @@ form h2{
         font-size: 1.5vmax;
         justify-content: center;
     }
+    .wrapper{
+    /* background-color: blue; */
+    margin-top: 3vmax;
+    width: 100%;
+    height: 90vmax;
+    display: flex;
+    gap: 3vmax;
+    flex-direction: column;
+    }
+    .box{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .first{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vmax;
+    margin-left: 3vmax;
+    flex-wrap: wrap;
+}
+.first h1{
+    display: flex;
+    gap: 2vmax;
+    color: #75BF7A;
+    font-size: 5vmax;
+    align-items: center;
+    width: 100%;
+}
+.first p{
+    color: black;
+    font-size: 2.2vmax;
+}
+.first h6{
+    color: #9E9DA2;
+    font-size: 1.8vmax;
+    font-weight: 400;
+    width: 100%;
+}
+.first-img{
+    width: 100%;
+    height: 100%;
+}
+.second{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vmax;
+    margin-left: 3vmax;
+    flex-wrap: wrap;
+}
+.second h1{
+    display: flex;
+    gap: 2vmax;
+    color: #75BF7A;
+    font-size: 5vmax;
+    align-items: center;
+    width: 100%;
+}
+.second p{
+    color: black;
+    font-size: 2.2vmax;
+}
+.second h6{
+    color: #9E9DA2;
+    font-size: 1.8vmax;
+    font-weight: 400;
+    width: 100%;
+}
+.second-img{
+    width: 100%;
+    height: 100%;
+}
+.third{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vmax;
+    margin-left: 3vmax;
+    flex-wrap: wrap;
 
+}
+.third h1{
+    display: flex;
+    gap: 2vmax;
+    color: #75BF7A;
+    font-size: 5vmax;
+    align-items: center;
+    width: 100%;
+}
+.third p{
+    color: black;
+    font-size: 2.2vmax;
+}
+.third h6{
+    color: #9E9DA2;
+    font-size: 1.8vmax;
+    font-weight: 400;
+    width: 100%; 
+}
+.third-img{
+    width: 100%;
+    height: 100%;
+}
 }
