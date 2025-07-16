@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 3vw;
+    cursor: pointer;
+}
+.nav-logo img{
+    width: 8vw;
+}
+.nav-links ul{
+    display: flex;
+    gap:3vmax;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links button{
+    background-color: #75BF7A;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8vmax 2vmax;
+    color: white;
+    font-size: 1vmax;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav i{
+    display: none;
+}
+section{
+    width: 100%;
+    display: flex;
+    height: 40vmax;
+}
+.cont1{
+    width: 55%;
+    padding: 5vw 3vw;
+}
+.cont1 h1{
+    margin-top: 7vmax;
+    font-size: 3vmax;
+    width: 80%;
+}
+.cont1 p{
+    color: #9E9DA2;
+    font-size: 1.2vmax;
+    width: 60%;
+    margin: 1.9vmax 0;
+}
+.cont1-btn{
+    display: flex;
+    gap: 3vmax ;
+    width: 80%;
+    margin-top: 5vmax;
+}
+.cont1 button{
+    background-color: black;
+    color: white;
+    padding: 1vmax 3vmax;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 2vmax;
+    font-size: 1vmax;
+}
+.cont1-btn i{
+    font-size: 1.5vmax;
+}
+.cont2{
+   width: 45%;
+}
+.cont2 img{
+    width: 100%;
+    height: 100%;
+}
+#form{
+    width: 100%;
+    height: 10vmax;
+    margin: 2vmax 0;
+}
+form{
+    width: 90%;
+    height: 100%;
+    background-color: #75BF7A;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3vmax;
+    align-items: center;
+    gap: 2vmax;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+form h2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    font-weight: 400;
+}
+.form{
+    width: calc(100% - 25%);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form input{
+    height: 50%;
+    width: 60%;
+    border: none;
+    font-size: 1vmax;
+    border-radius: 10px;
+    text-align: center;
+}
+.form button{
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 25%;
+    padding: 1vmax 3vmax;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 2vmax;
+    font-size: 1vmax;
+    justify-content: center;
+}
+#benifits{
+    width: 100%;
+    height: 80vmax;
+}
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 99vmax;
+    height: 5vmax;
+    font-size: 1.5vmax;
+}
+.h1 span{
+    color: #75BF7A;
+}
+.container{
+    height: calc(80vmax - 5vmax);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+.box1{
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+     height: 20vmax;
+    box-shadow: 0 0 20px #9E9DA2;
+}
+.title{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3vmax;
+    align-items: start;
+    justify-content: center;
+}
+.title p{
+    width: 60%;
+    color: #9E9DA2;
+}
+.box1-img{
+    width: 30%;
+    height: 100%;
+}
+.box1-img img{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    display: flex;
+    gap: 3vmax;
+    width: 60%;
+    margin-top: 1.5vmax;
+    font-size: 1.5vmax;
+}
+.head h1{
+    font-size: 3vmax;
+    color: #75BF7A;
+}
+@media only screen and (max-width:600px) {
+    .nav{
+        width: 100%;
+        height: 9vmax;
+        padding: 0 3vmax;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .nav-logo img {
+        width: 10vmax;
+    }
+    .nav i{
+        display: block;
+        font-size: 3vmax;
+        font-weight: 600;
+    }
+    section{
+        width: 80%;
+        margin: auto;
+        flex-direction: column-reverse;
+        height: 100vmax;
+    }
+    .cont1{
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+    .cont1 h1{
+        width: 100%;
+        font-size: 4vmax;
+        margin-top: 2vmax;
+    }
+    .cont1 p{
+        width: 100%;
+        font-size: 2vmax;
+        margin: 2vmax 0;
+    }
+    .cont1-btn{
+        width: 100%;
+        justify-content: center;
+    }
+    .cont1 button{
+        padding: 1.5vmax 3.3vmax;
+        font-size: 1.4vmax;
+        gap: 1vmax;
+    }
+    .cont2{
+        width: 100%;
+        height: 50%;
+    }
+    .cont2 img{
+        width: 100%;
+        height:100%;
+    }
+    #form{
+        width: 100%;
+        height: 35vmax;
+        margin: 0;
+        margin-bottom: 2vmax;
+    }
+    form{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    form h2{
+        width: 100%;
+        font-size: 2.5vmax;
+    }
+    .form{
+        flex-direction: column;
+        width: 100%;
+        gap: 2vmax;
+        text-align: center;
+    }
+    .form input{
+        width: 100%;
+        height: 8vmax;
+        font-size: 2vmax;
+    }
+    .form button{
+        width: 100%;
+        height: 8vmax;
+        margin-bottom: 2vmax;
+        font-size: 1.5vmax;
+        justify-content: center;
+    }
+/* #benifits{
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+    text-align: center;
+    width: 100%;
+    height: 5vmax;
+    background-color: red;
+    font-size: 1.5vmax;
+}
+.h1 span{
+    color: #75BF7A;
+} */
+
+}
