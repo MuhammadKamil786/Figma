@@ -390,7 +390,7 @@ form h2{
     flex-direction: column;
     }
     .box{
-    width: 80%;
+    width: 70%;
     margin: auto;
     height: 100%;
     border: none;
@@ -415,21 +415,21 @@ form h2{
 }
 .first h1{
     display: flex;
-    gap: 2vmax;
+    gap: 1.5vmax;
     color: #75BF7A;
     font-size: 5vmax;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .first p{
     color: black;
-    font-size: 2.2vmax;
+    font-size: 2vmax;
 }
 .first h6{
     color: #9E9DA2;
-    font-size: 1.8vmax;
+    font-size: 1.5vmax;
     font-weight: 400;
-    width: 100%;
+    width: 90%;
 }
 .first-img{
     width: 100%;
@@ -448,21 +448,21 @@ form h2{
 }
 .second h1{
     display: flex;
-    gap: 2vmax;
+    gap: 1.5vmax;
     color: #75BF7A;
     font-size: 5vmax;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .second p{
     color: black;
-    font-size: 2.2vmax;
+    font-size: 2vmax;
 }
 .second h6{
     color: #9E9DA2;
-    font-size: 1.8vmax;
+    font-size: 1.5vmax;
     font-weight: 400;
-    width: 100%;
+    width: 90%;
 }
 .second-img{
     width: 100%;
@@ -482,21 +482,21 @@ form h2{
 }
 .third h1{
     display: flex;
-    gap: 2vmax;
+    gap: 1.5vmax;
     color: #75BF7A;
     font-size: 5vmax;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .third p{
     color: black;
-    font-size: 2.2vmax;
+    font-size: 2vmax;
 }
 .third h6{
     color: #9E9DA2;
-    font-size: 1.8vmax;
+    font-size: 1.5vmax;
     font-weight: 400;
-    width: 100%; 
+    width: 90%; 
 }
 .third-img{
     width: 100%;
