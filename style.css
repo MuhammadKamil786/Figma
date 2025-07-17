@@ -536,4 +536,52 @@ footer span{
     width: 100%;
     height: 100%;
 }
+#footer{
+    width: 100%;
+    height: auto;
+    margin-top: 10vmax;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    height: 15vmax;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vmax;
+    line-height: 2.5vmax;
+}
+.footer p{
+    color: #9E9DA2;
+}
+footer{
+    background-color: #75BF7A;
+    color: white;
+    width: 100%;
+    height: 10vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer span{
+    font-size: 1.5vmax;
+    cursor: pointer;
+}
+footer{
+    background-color: #75BF7A;
+    color: white;
+    width: 100%;
+    height: 10vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer span{
+    font-size: 1.5vmax;
+    cursor: pointer;
+}
 }
